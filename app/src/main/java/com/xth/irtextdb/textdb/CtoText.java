@@ -69,10 +69,10 @@ public class CtoText {
                     if (out == null && writer == null) {
                         out = mContext.openFileOutput(createTextName, Context.MODE_PRIVATE);
                         writer = new BufferedWriter(new OutputStreamWriter(out));
-//                        LogUtil.v("open:"+fileName+":createTextName:"+createTextName);
                     }
                     if (line.contains(Constants.text_end)) {//检测到末尾
                         writer.write(line + "\n");
+                        createTextName = "";
 //                        LogUtil.v(fileName+":createTextName:"+createTextName+":"+line);
                         if (writer != null) {
                             try {
@@ -97,7 +97,7 @@ public class CtoText {
                 }
 
             }
-            LogUtil.v("readCFile:"+fileName +" over");
+            LogUtil.d("readCFile:"+fileName +" over");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

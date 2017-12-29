@@ -232,13 +232,14 @@ public class TextToDb {
                     startCursor = -2;//游标位移
                     byte[] tempArray = new byte[hexLength];//最终要存进数据库的码库数组
                     System.arraycopy(codeByteArray, 0, tempArray, 0, hexLength);
-                    LogUtil.v("serial:" + serial + "--tempArray:" + ConstantUtil.bytes2HexString(tempArray));
+                    LogUtil.v("fileName:"+fileName+",serial:" + serial + "--tempArray:" + ConstantUtil.bytes2HexString(tempArray));
                     insert(fileName, serial, tempArray);
                     serial++;//从零开始累加
                     hexLength = 0;//码库长度清零
                 }
                 break;
             case 'x':
+            case 'X':
                 if (startCursor == -1) {//游标位移
                     startCursor = 0;///游标位移
                     hexLength++;
@@ -266,7 +267,7 @@ public class TextToDb {
                 } else if (startCursor == 1) {
                     hexArray[1] = ConstantUtil.hexArrayTurnInt(ConstantUtil.bigToSmall(value));//将第二个字符转成对应字符的整数
                     codeByteArray[hexLength - 1] = ConstantUtil.intArrayTurnByte(hexArray);//两个字符运算得到最终的16进制
-                    //                        LogUtil.v("hexArray[0]:"+hexArray[0]+"hexArray[1]:"+hexArray[1]+"codeArray["+(hexLength - 1)+"]"+codeArray[hexLength - 1]);
+//                    LogUtil.v("hexArray[0]:"+hexArray[0]+"hexArray[1]:"+hexArray[1]+"codeByteArray["+(hexLength - 1)+"]"+codeByteArray[hexLength - 1]);
                     startCursor = -2;//游标位移
                 }
                 break;
@@ -361,7 +362,7 @@ public class TextToDb {
                 if (endCursor == 0) {
                     endCursor = 1;
                     startCursor = -2;
-                    LogUtil.v("serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--model:" + model + "--code:" + hexLength);
+                    LogUtil.v("fileName:"+fileName+",serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--model:" + model + "--code:" + hexLength);
                     insert(fileName, serial, brandCn, brandEn, model, hexLength);
                     serial++;
                     brandCn = "";
@@ -447,7 +448,7 @@ public class TextToDb {
                                 break;
                             }else if(value == ')'){
                                 brandEn = infoStringBuffer;
-                                LogUtil.v("serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--code:" + infoCodeString);
+                                LogUtil.v("fileName:"+fileName+",serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--code:" + infoCodeString);
                                 insert(fileName,serial,brandCn,brandEn,infoCodeString);
                                 infoStringBuffer = "";
                                 brandCn = "";

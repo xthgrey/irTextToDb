@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             for(int i = 0;i < 4;i ++){
                 for(int j = 0; j < 11; j ++){
                     textToDb.readTextFile(Constants.fileName[i][j]);
-                    LogUtil.v("read:"+ Constants.fileName[i][j] + "over!");
+                    LogUtil.d("read:"+ Constants.fileName[i][j] + " over!");
                 }
             }
     }
