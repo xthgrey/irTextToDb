@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CtoText ctoText = new CtoText(this);
-        ctoText.readCFile(Constants.irCFileName);
+//        ctoText.readCFile(Constants.irCFileName);
         for (int i = 0; i < 11; i++) {
             ctoText.readCFile(Constants.fileName[3][i]);
         }
@@ -68,11 +68,15 @@ public class MainActivity extends AppCompatActivity {
 //        textToDb.readTextFile("brand_dvd_one_key");
 //        textToDb.readTextFile("brand_stb_one_key");
 //        textToDb.readTextFile("brand_tv_one_key");
-            for(int i = 0;i < 4;i ++){
-                for(int j = 0; j < 11; j ++){
-                    textToDb.readTextFile(Constants.fileName[i][j]);
-                    LogUtil.d("read:"+ Constants.fileName[i][j] + " over!");
-                }
-            }
+//            for(int i = 0;i < 4;i ++){
+//                for(int j = 0; j < 11; j ++){
+//                    textToDb.readTextFile(Constants.fileName[i][j]);
+//                    LogUtil.d("read:"+ Constants.fileName[i][j] + " over!");
+//                }
+//            }
+        for (int i = 0; i < 11; i++) {
+            textToDb.readTextFile(Constants.fileName[3][i]);
+            LogUtil.d("read:"+ Constants.fileName[3][i] + " over!");
+        }
     }
 }

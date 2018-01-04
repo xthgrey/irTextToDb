@@ -54,7 +54,7 @@ public class Constants {
     public static final String remote_Audio_2_info = "remote_Audio_2_info";
 
     public static final String brand_stb_one_key = "brand_stb_one_key";
-
+    public static final String all_arc_one_key = "all_arc_one_key";
 
     public static final String text_end = "};";
     public static final String[][] fileName = {

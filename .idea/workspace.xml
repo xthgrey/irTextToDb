@@ -13,12 +13,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eee9777-286f-4400-81bf-0f02e2f80451" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/all_arc_one_key" afterPath="$PROJECT_DIR$/app/src/main/assets/all_arc_one_key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+            <state relative-caret-position="449">
+              <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -70,40 +80,29 @@
       <file leaf-file-name="TextToDb.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="581" column="1" lean-forward="false" selection-start-line="581" selection-start-column="1" selection-end-line="581" selection-end-column="1" />
+            <state relative-caret-position="-1787">
+              <caret line="488" column="17" lean-forward="false" selection-start-line="488" selection-start-column="17" selection-end-line="488" selection-end-column="17" />
               <folding>
-                <element signature="method#resetValue#0;class#TextToDb#0" expanded="false" />
                 <element signature="method#TextToDb#0;class#TextToDb#0" expanded="false" />
                 <element signature="method#closeDatabase#0;class#TextToDb#0" expanded="false" />
-                <element signature="method#insert#0;class#TextToDb#0" expanded="false" />
-                <element signature="method#insert#1;class#TextToDb#0" expanded="false" />
-                <element signature="method#insert#2;class#TextToDb#0" expanded="false" />
-                <element signature="method#insert#3;class#TextToDb#0" expanded="false" />
-                <element signature="method#readTextFile#0;class#TextToDb#0" expanded="false" />
-                <element signature="method#tableCopyToDb#0;class#TextToDb#0" expanded="false" />
-                <element signature="method#info2CopyToDb#0;class#TextToDb#0" expanded="false" />
                 <element signature="method#infoCopyToDb#0;class#TextToDb#0" expanded="false" />
-                <element signature="method#oneKeyCopyToDb#0;class#TextToDb#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbManage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/DbManage.java">
+      <file leaf-file-name="all_arc_one_key" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_arc_one_key">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2574">
-              <caret line="133" column="46" lean-forward="false" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="359">
+              <caret line="936" column="2" lean-forward="true" selection-start-line="936" selection-start-column="2" selection-end-line="936" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="all_fan_one_key" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_fan_one_key">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -115,19 +114,31 @@
       <file leaf-file-name="ConstantUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/ConstantUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="193">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TV_stb_DVD_arc_data_table_V8.7.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/TV_stb_DVD_arc_data_table_V8.7.c">
+      <file leaf-file-name="all_air_purifier_one_key" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_air_purifier_one_key">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1028038">
-              <caret line="46729" column="7" lean-forward="false" selection-start-line="46729" selection-start-column="3" selection-end-line="46729" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbManage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/DbManage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1263">
+              <caret line="133" column="46" lean-forward="false" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,18 +146,8 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brand_Audio_one_key" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/brand_Audio_one_key">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26026">
-              <caret line="1183" column="60" lean-forward="false" selection-start-line="1183" selection-start-column="60" selection-end-line="1183" selection-end-column="60" />
+            <state relative-caret-position="127">
+              <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -155,7 +156,7 @@
       <file leaf-file-name="CtoText.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/CtoText.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
+            <state relative-caret-position="471">
               <caret line="70" column="81" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="70" selection-end-column="81" />
               <folding />
             </state>
@@ -1970,24 +1971,24 @@
         <option value="$PROJECT_DIR$/app/src/main/assets/影碟机品牌一键匹配_v8.5-2c.c" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_arc_one_key.txt" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_air_purifier_one_key" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/all_arc_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_fan_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_IPTV_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_pjt_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_SLR_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/all_Water_Heater_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/brand_Audio_one_key" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/brand_stb_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/brand_tv_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/brand_dvd_one_key" />
         <option value="$PROJECT_DIR$/app/src/main/assets/TV_stb_DVD_arc_data_table_V8.7.c" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/LogUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/CtoText.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/DbToXml.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/DbManage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/all_arc_one_key" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/activity/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2015,7 +2016,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2094,8 +2096,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2393,7 +2394,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515027501604" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515059366280" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2441,7 +2442,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515027501605" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515059366280" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2473,6 +2474,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2603,7 +2625,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515027501611" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515059366281" />
       </method>
     </configuration>
     <list size="1">
@@ -2617,12 +2639,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -2657,8 +2673,9 @@
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2667,12 +2684,12 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2845982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40401787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2684,7 +2701,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2712,18 +2728,9 @@
         <state relative-caret-position="1078">
           <caret line="201" column="60" lean-forward="false" selection-start-line="201" selection-start-column="60" selection-end-line="201" selection-end-column="60" />
           <folding>
-            <element signature="method#resetValue#0;class#TextToDb#0" expanded="false" />
             <element signature="method#TextToDb#0;class#TextToDb#0" expanded="false" />
             <element signature="method#closeDatabase#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#1;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#2;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#3;class#TextToDb#0" expanded="false" />
-            <element signature="method#readTextFile#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#tableCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#info2CopyToDb#0;class#TextToDb#0" expanded="false" />
             <element signature="method#infoCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#oneKeyCopyToDb#0;class#TextToDb#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2803,18 +2810,9 @@
         <state relative-caret-position="4422">
           <caret line="201" column="60" lean-forward="false" selection-start-line="201" selection-start-column="60" selection-end-line="201" selection-end-column="60" />
           <folding>
-            <element signature="method#resetValue#0;class#TextToDb#0" expanded="false" />
             <element signature="method#TextToDb#0;class#TextToDb#0" expanded="false" />
             <element signature="method#closeDatabase#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#1;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#2;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#3;class#TextToDb#0" expanded="false" />
-            <element signature="method#readTextFile#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#tableCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#info2CopyToDb#0;class#TextToDb#0" expanded="false" />
             <element signature="method#infoCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#oneKeyCopyToDb#0;class#TextToDb#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2893,18 +2891,9 @@
         <state relative-caret-position="2926">
           <caret line="133" column="20" lean-forward="false" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
           <folding>
-            <element signature="method#resetValue#0;class#TextToDb#0" expanded="false" />
             <element signature="method#TextToDb#0;class#TextToDb#0" expanded="false" />
             <element signature="method#closeDatabase#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#1;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#2;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#3;class#TextToDb#0" expanded="false" />
-            <element signature="method#readTextFile#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#tableCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#info2CopyToDb#0;class#TextToDb#0" expanded="false" />
             <element signature="method#infoCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#oneKeyCopyToDb#0;class#TextToDb#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2956,27 +2945,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/arc_table.txt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_air_purifier_one_key.txt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_air_purifier_one_key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_arc_one_key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20121">
-          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_fan_one_key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10617">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_IPTV_one_key">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3951">
@@ -3042,26 +3010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/ConstantUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/TV_stb_DVD_arc_data_table_V8.7.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1028038">
           <caret line="46729" column="7" lean-forward="false" selection-start-line="46729" selection-start-column="3" selection-end-line="46729" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -3071,45 +3023,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/CtoText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="70" column="81" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="70" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="581" column="1" lean-forward="false" selection-start-line="581" selection-start-column="1" selection-end-line="581" selection-end-column="1" />
-          <folding>
-            <element signature="method#resetValue#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#TextToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#closeDatabase#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#1;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#2;class#TextToDb#0" expanded="false" />
-            <element signature="method#insert#3;class#TextToDb#0" expanded="false" />
-            <element signature="method#readTextFile#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#tableCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#info2CopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#infoCopyToDb#0;class#TextToDb#0" expanded="false" />
-            <element signature="method#oneKeyCopyToDb#0;class#TextToDb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/DbManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="133" column="46" lean-forward="false" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3123,10 +3036,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_fan_one_key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_air_purifier_one_key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/DbManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1263">
+          <caret line="133" column="46" lean-forward="false" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/CtoText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="70" column="81" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="70" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/util/ConstantUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        <state relative-caret-position="449">
+          <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xth/irtextdb/textdb/TextToDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1787">
+          <caret line="488" column="17" lean-forward="false" selection-start-line="488" selection-start-column="17" selection-end-line="488" selection-end-column="17" />
+          <folding>
+            <element signature="method#TextToDb#0;class#TextToDb#0" expanded="false" />
+            <element signature="method#closeDatabase#0;class#TextToDb#0" expanded="false" />
+            <element signature="method#infoCopyToDb#0;class#TextToDb#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/all_arc_one_key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="936" column="2" lean-forward="true" selection-start-line="936" selection-start-column="2" selection-end-line="936" selection-end-column="2" />
           <folding />
         </state>
       </provider>

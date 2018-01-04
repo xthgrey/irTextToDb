@@ -509,9 +509,11 @@ public class TextToDb {
                 break;
             case '}':
                 if(endCursor == 0){
-                    insert(fileName,serial,codeByteArray);
-                    LogUtil.v("fileName:"+fileName+",serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--code:" + ConstantUtil.bytes2HexString(codeByteArray));
-                    serial++;
+                    if(!fileName.equals(Constants.all_arc_one_key)){
+                        insert(fileName,serial,codeByteArray);
+                        LogUtil.v("fileName:"+fileName+",serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--code:" + ConstantUtil.bytes2HexString(codeByteArray));
+                        serial++;
+                    }
                     hexLength = 0;
                     endCursor = 1;
                 }
@@ -559,7 +561,24 @@ public class TextToDb {
                     if(fileName.equals(Constants.brand_stb_one_key)){
                         infoStringBuffer += value;//中文名字
                         isEdit = true;
-                    }else{
+                    }else if(fileName.equals(Constants.all_arc_one_key)){
+                        if(value == '*'){
+                            isEdit = !isEdit;
+                            if(!isEdit){
+                                serial = ConstantUtil.codeArrayToInt(codeCharArray,hexLength - 1);
+                                insert(fileName,serial,codeByteArray);
+                                LogUtil.v("fileName:"+fileName+",serial:" + serial + "--brandCn:" + brandCn + "--brandEn:" + brandEn + "--code:" + ConstantUtil.bytes2HexString(codeByteArray));
+                                hexLength = 0;
+                            }
+                        }else{
+                            if(isEdit){
+                                codeCharArray[hexLength] = value;
+                                hexLength ++;
+                            }
+                        }
+
+                    }
+                    else{
                         if(value == ' ' && !isEdit){
                             infoStringBuffer = "";
                             isEdit = true;
