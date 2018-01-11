@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
             ctoText.readCFile(Constants.fileName[3][i]);
         }
         TextToDb textToDb = new TextToDb(this);
-
         for(int i = 0;i < 4;i ++){
             for(int j = 0; j < 11; j ++){
                 textToDb.readTextFile(Constants.fileName[i][j]);
